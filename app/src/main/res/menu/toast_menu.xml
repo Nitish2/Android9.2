@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Toast Msg"
+        app:showAsAction="always"
+        android:id="@+id/toast" />
+
+    <item android:title="Computer"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/comp" />
+
+    <item android:title="GamePad"
+        app:showAsAction="never"
+        android:orderInCategory="101"
+        android:id="@+id/pad" />
+
+    <item android:title="Camera"
+        app:showAsAction="never"
+        android:orderInCategory="102"
+        android:id="@+id/cam" />
+
+    <item android:title="Video"
+        app:showAsAction="never"
+        android:orderInCategory="103"
+        android:id="@+id/video" />
+
+    <item android:title="Email"
+        app:showAsAction="never"
+        android:orderInCategory="104"
+        android:id="@+id/mail" />
+
+</menu>
